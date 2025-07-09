@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import { PostsManager } from './features/posts/PostsManager'
 
 function App() {
+    const f = 'val';
   return (
     <Routes>
       <Route path="*" element={<PostsManager />} />
